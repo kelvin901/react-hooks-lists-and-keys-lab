@@ -1,13 +1,13 @@
 import React from "react";
 
-function Home({ color, username, city }) {
+function Links({ github, linkedin }) {
   return (
-    <div id="home">
-      <h1 style={{ color: color }}>
-        {username} is a Web Developer from {city}
-      </h1>
+    <div>
+      <h3>Links</h3>
+      <a href={github}>{github}</a>
+      <a href={linkedin}>{linkedin}</a>
     </div>
   );
 }
 
-export default Home;
+export default Links;

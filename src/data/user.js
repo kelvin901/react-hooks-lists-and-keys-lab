@@ -1,30 +1,30 @@
 const user = {
-  name: "Liza",
-  city: "New York",
+  name: "Kelvin",
+  city: "Kenya",
   bio: "I made this!",
   color: "firebrick",
   links: {
-    github: "https://github.com/liza",
-    linkedin: "https://www.linkedin.com/in/liza/",
+    github: "https://github.com/kelvin901",
+    linkedin: "https://www.linkedin.com/in/kelvin/",
   },
   projects: [
     {
       id: 1,
-      name: "Reciplease",
-      about: "A recipe tracking app",
-      technologies: ["Rails", "Bootstrap CSS"],
+      name: "Kieni Milk Sales",
+      about: "An online milk-sale platform for farmers",
+      technologies: ["HTML", "Bootstrap CSS", "JS"],
     },
     {
       id: 2,
-      name: "Kibbles N Bitz",
-      about: "Tinder for dogs",
-      technologies: ["React", "Redux"],
+      name: "Paye Generator",
+      about: "Government nssf Generating app",
+      technologies: ["HTML", "Javascript"],
     },
     {
       id: 3,
-      name: "Alienwares",
-      about: "Etsy for aliens",
-      technologies: ["React", "Redux", "Rails"],
+      name: "Joke Generator",
+      about: "Fetches Joke Apis",
+      technologies: ["HTML", "Java Script", "React"],
     },
   ],
 };
